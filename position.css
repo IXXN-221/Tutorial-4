@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: beige;
+}
+
+.all-blogs-wrapper {
+  padding-top: 40px;
+  width: 57vw;
+  margin: auto;
+}
+
+.blog-card-wrapper {
+  margin-bottom: 40px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+  box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 310px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-content {
+  margin: 20px;
+}
+
+.information-heading {
+  width: 100%;
+  height: 40px;
+}
+
+.date {
+  float: left;
+}
+
+.subject {
+  float: right;
+}
+
+.blog-heading {
+  padding-bottom: 30px;
+}
+
+.blog-details {
+  padding-bottom: 30px;
+}
